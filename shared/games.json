@@ -1,0 +1,359 @@
+[
+  {
+    "id": "baldurs-gate-3",
+    "title": "Baldur's Gate 3",
+    "year": 2023,
+    "genres": [
+      "RPG",
+      "Tactical"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series"
+    ],
+    "summary": "A party-based fantasy role-playing game with turn-based combat and branching quests.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
+    "hero_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/library_hero.jpg"
+  },
+  {
+    "id": "cyberpunk-2077",
+    "title": "Cyberpunk 2077",
+    "year": 2020,
+    "genres": [
+      "RPG",
+      "Action"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series"
+    ],
+    "summary": "An open-world science-fiction role-playing game set in Night City.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg"
+  },
+  {
+    "id": "dave-the-diver",
+    "title": "DAVE THE DIVER",
+    "year": 2023,
+    "genres": [
+      "Adventure",
+      "Management"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "switch"
+    ],
+    "summary": "Explore a deep-sea world by day and run a sushi restaurant at night.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900.jpg"
+  },
+  {
+    "id": "dead-cells",
+    "title": "Dead Cells",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Roguelite"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A fast action platformer with procedurally arranged runs and unlockable routes.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588650/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588650/library_600x900.jpg"
+  },
+  {
+    "id": "diablo-iv",
+    "title": "Diablo IV",
+    "year": 2023,
+    "genres": [
+      "Action RPG",
+      "Online"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series"
+    ],
+    "summary": "A dark action role-playing game with open-world regions and cooperative play.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2344520/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2344520/library_600x900.jpg"
+  },
+  {
+    "id": "dredge",
+    "title": "DREDGE",
+    "year": 2023,
+    "genres": [
+      "Adventure",
+      "Fishing"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A single-player fishing adventure with exploration and unsettling mysteries.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1562430/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1562430/library_600x900.jpg"
+  },
+  {
+    "id": "elden-ring",
+    "title": "Elden Ring",
+    "year": 2022,
+    "genres": [
+      "Action RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series"
+    ],
+    "summary": "An open-world action role-playing game built around exploration and challenging combat.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+    "hero_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/library_hero.jpg"
+  },
+  {
+    "id": "fortnite",
+    "title": "Fortnite",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Battle Royale"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A free-to-play game with battle royale, creative islands, and other player-made modes.",
+    "cover_image": "https://cdn1.epicgames.com/spt-assets/prod-fn/FNBR_42-30_Fortnitemares_KeyArt_FNBR_EGS_Launcher_Blade_2560x1440-n9m6i.jpg",
+    "cover_source": "https://cdn1.epicgames.com/spt-assets/prod-fn/FNBR_42-30_Fortnitemares_KeyArt_FNBR_EGS_Launcher_Blade_2560x1440-n9m6i.jpg"
+  },
+  {
+    "id": "hades",
+    "title": "Hades",
+    "year": 2020,
+    "genres": [
+      "Action",
+      "Roguelike"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A story-rich action roguelike about repeated attempts to escape the Underworld.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/library_600x900.jpg",
+    "hero_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/library_hero.jpg"
+  },
+  {
+    "id": "hollow-knight",
+    "title": "Hollow Knight",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Metroidvania"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A hand-drawn action adventure through a vast underground kingdom.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900.jpg"
+  },
+  {
+    "id": "hogwarts-legacy",
+    "title": "Hogwarts Legacy",
+    "year": 2023,
+    "genres": [
+      "Action RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "An open-world action role-playing adventure in a magical school setting.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/library_600x900.jpg"
+  },
+  {
+    "id": "it-takes-two",
+    "title": "It Takes Two",
+    "year": 2021,
+    "genres": [
+      "Adventure",
+      "Co-op"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A cooperative adventure designed for two players with changing platforming challenges.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/library_600x900.jpg"
+  },
+  {
+    "id": "minecraft",
+    "title": "Minecraft",
+    "year": 2011,
+    "genres": [
+      "Sandbox",
+      "Survival"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A block-based sandbox for building, exploration, and survival in generated worlds.",
+    "cover_image": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/About-Minecraft_Featured-Image-0_570x321.jpg",
+    "cover_source": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/About-Minecraft_Featured-Image-0_570x321.jpg"
+  },
+  {
+    "id": "no-mans-sky",
+    "title": "No Man's Sky",
+    "year": 2016,
+    "genres": [
+      "Adventure",
+      "Survival"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "Explore generated planets, gather resources, and build across a vast science-fiction universe.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/library_600x900.jpg"
+  },
+  {
+    "id": "overcooked-all-you-can-eat",
+    "title": "Overcooked! All You Can Eat",
+    "year": 2020,
+    "genres": [
+      "Simulation",
+      "Co-op"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A cooperative cooking collection with chaotic kitchens and timed team challenges.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1243830/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1243830/library_600x900.jpg"
+  },
+  {
+    "id": "rocket-league",
+    "title": "Rocket League",
+    "year": 2015,
+    "genres": [
+      "Sports",
+      "Action"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A free-to-play team sports game where rocket-powered cars play soccer.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252950/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252950/library_600x900.jpg"
+  },
+  {
+    "id": "sea-of-thieves",
+    "title": "Sea of Thieves",
+    "year": 2018,
+    "genres": [
+      "Adventure",
+      "Online"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series"
+    ],
+    "summary": "A shared-world pirate adventure focused on sailing, treasure hunting, and crew play.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172620/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172620/library_600x900.jpg"
+  },
+  {
+    "id": "stardew-valley",
+    "title": "Stardew Valley",
+    "year": 2016,
+    "genres": [
+      "Simulation",
+      "RPG"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A farming and community life simulation with exploration, crafting, and relationships.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/library_600x900.jpg"
+  },
+  {
+    "id": "the-witcher-3",
+    "title": "The Witcher 3: Wild Hunt",
+    "year": 2015,
+    "genres": [
+      "RPG",
+      "Adventure"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "An open-world fantasy role-playing game following monster hunter Geralt.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/library_600x900.jpg"
+  },
+  {
+    "id": "terraria",
+    "title": "Terraria",
+    "year": 2011,
+    "genres": [
+      "Sandbox",
+      "Adventure"
+    ],
+    "platforms": [
+      "pc",
+      "ps5",
+      "xbox-series",
+      "switch"
+    ],
+    "summary": "A 2D sandbox adventure about digging, crafting, building, and fighting bosses.",
+    "cover_image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/library_600x900.jpg",
+    "cover_source": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/library_600x900.jpg"
+  }
+]

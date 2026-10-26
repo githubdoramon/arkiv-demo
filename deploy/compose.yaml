@@ -1,0 +1,43 @@
+name: sidequest
+services:
+  app:
+    image: sidequest-review:tiramisu
+    platform: linux/amd64
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: review-app
+      additional_contexts:
+        arkiv_js: ../../arkiv-sdk-js
+        arkiv_python: ../../arkiv-python-sdk
+      args:
+        REVIEW_APP_URL: https://sidequest.appcalipse.com/
+        PORTFOLIO_URL: https://portfolios.appcalipse.com/
+    ports:
+      - "${SIDEQUEST_BIND:-127.0.0.1}:${SIDEQUEST_PORT:-8080}:8080"
+    environment:
+      KEEPER_ENABLED: ${KEEPER_ENABLED:-auto}
+      MODERATOR_TOKEN: ${MODERATOR_TOKEN:-}
+    volumes:
+      - sidequest-data:/data
+      - ./secrets:/run/sidequest:ro
+    restart: unless-stopped
+    stop_grace_period: 15s
+  portfolio:
+    image: sidequest-portfolio:tiramisu
+    platform: linux/amd64
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: portfolio
+      additional_contexts:
+        arkiv_js: ../../arkiv-sdk-js
+        arkiv_python: ../../arkiv-python-sdk
+      args:
+        REVIEW_APP_URL: https://sidequest.appcalipse.com/
+        PORTFOLIO_URL: https://portfolios.appcalipse.com/
+    ports:
+      - "${SIDEQUEST_BIND:-127.0.0.1}:${PORTFOLIO_PORT:-8081}:8080"
+    restart: unless-stopped
+volumes:
+  sidequest-data:

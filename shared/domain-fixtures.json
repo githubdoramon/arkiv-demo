@@ -1,0 +1,760 @@
+{
+  "schema": "domain-fixtures/v1",
+  "description": "Backend-derived canonicalization parity. The expired entity is excluded from the block-100 Arkiv query surface.",
+  "snapshot": {
+    "chain_id": 1337,
+    "block_number": 100,
+    "block_timestamp": 86400100,
+    "evaluation_day": 1000,
+    "entities": [
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 2,
+        "created_at_timestamp": 86400002,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-root",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+        },
+        "payload": {
+          "schema": "review-root/v1",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 1,
+        "created_at_timestamp": 86400001,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-root",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+        },
+        "payload": {
+          "schema": "review-root/v1",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+        "creator": "0x0000000000000000000000000000000000000004",
+        "owner": "0x0000000000000000000000000000000000000004",
+        "created_at_block": 3,
+        "created_at_timestamp": 86400003,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-root",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+        },
+        "payload": {
+          "schema": "review-root/v1",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 4,
+        "created_at_timestamp": 86400004,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-root",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "unknown-game",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:unknown-game:pc"
+        },
+        "payload": {
+          "schema": "review-root/v1",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "unknown-game",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:unknown-game:pc"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000005",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 5,
+        "created_at_timestamp": 86400005,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-root",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "playstation-8",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:playstation-8"
+        },
+        "payload": {
+          "schema": "review-root/v1",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "playstation-8",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:playstation-8"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000006",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 6,
+        "created_at_timestamp": 86400006,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": false,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-root",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+        },
+        "payload": {
+          "schema": "review-root/v1",
+          "author": "0x0000000000000000000000000000000000000001",
+          "game_id": "baldurs-gate-3",
+          "platform": "pc",
+          "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000007",
+        "creator": "0x0000000000000000000000000000000000000002",
+        "owner": "0x0000000000000000000000000000000000000002",
+        "created_at_block": 2,
+        "created_at_timestamp": 86400002,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": false,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "profile",
+          "wallet": "0x0000000000000000000000000000000000000002",
+          "logical_id": "profile:1337:0x0000000000000000000000000000000000000002"
+        },
+        "payload": {
+          "schema": "profile/v1",
+          "wallet": "0x0000000000000000000000000000000000000002",
+          "display_name": "Fixture Player",
+          "logical_id": "profile:1337:0x0000000000000000000000000000000000000002"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000014",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 10,
+        "created_at_timestamp": 86400010,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 1,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:1"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 1,
+          "previous_revision_key": null,
+          "rating_half_stars": 8,
+          "text": "Fixture review revision 1.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:1"
+        }
+      },
+      {
+        "key": "0x000000000000000000000000000000000000000000000000000000000000001a",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 11,
+        "created_at_timestamp": 86400011,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 1,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:1"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 1,
+          "previous_revision_key": null,
+          "rating_half_stars": 8,
+          "text": "Fixture review revision 1.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:1"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000015",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 12,
+        "created_at_timestamp": 86400012,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 2,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:2"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 2,
+          "previous_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000014",
+          "rating_half_stars": 8,
+          "text": "Fixture review revision 2.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:2"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000016",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 13,
+        "created_at_timestamp": 86400013,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 3,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:3"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 3,
+          "previous_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000015",
+          "rating_half_stars": 8,
+          "text": "Fixture review revision 3.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:3"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000017",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 14,
+        "created_at_timestamp": 86400014,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 2,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:2"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 2,
+          "previous_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000014",
+          "rating_half_stars": 8,
+          "text": "Fixture review revision 2.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:2"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000018",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 15,
+        "created_at_timestamp": 86400015,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 3,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:3"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 3,
+          "previous_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000017",
+          "rating_half_stars": 8,
+          "text": "Fixture review revision 3.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:3"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 16,
+        "created_at_timestamp": 86400016,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 4,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:4"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 4,
+          "previous_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000018",
+          "rating_half_stars": 8,
+          "text": "Fixture review revision 4.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:4"
+        }
+      },
+      {
+        "key": "0x000000000000000000000000000000000000000000000000000000000000001b",
+        "creator": "0x0000000000000000000000000000000000000001",
+        "owner": "0x0000000000000000000000000000000000000001",
+        "created_at_block": 17,
+        "created_at_timestamp": 86400017,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 2,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:2"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 2,
+          "previous_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000014",
+          "rating_half_stars": 11,
+          "text": "Fixture review revision 2.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:2"
+        }
+      },
+      {
+        "key": "0x000000000000000000000000000000000000000000000000000000000000001c",
+        "creator": "0x0000000000000000000000000000000000000004",
+        "owner": "0x0000000000000000000000000000000000000004",
+        "created_at_block": 18,
+        "created_at_timestamp": 86400018,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-revision",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 5,
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:5"
+        },
+        "payload": {
+          "schema": "review-revision/v1",
+          "root_key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "revision": 5,
+          "previous_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "rating_half_stars": 8,
+          "text": "Fixture review revision 5.",
+          "author": "0x0000000000000000000000000000000000000001",
+          "logical_id": "0x0000000000000000000000000000000000000000000000000000000000000001:revision:5"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000028",
+        "creator": "0x0000000000000000000000000000000000000002",
+        "owner": "0x0000000000000000000000000000000000000002",
+        "created_at_block": 20,
+        "created_at_timestamp": 86400020,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-vote",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000018",
+          "voter": "0x0000000000000000000000000000000000000002",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000018:0x0000000000000000000000000000000000000002"
+        },
+        "payload": {
+          "schema": "review-vote/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000018",
+          "voter": "0x0000000000000000000000000000000000000002",
+          "value": "helpful",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000018:0x0000000000000000000000000000000000000002"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000029",
+        "creator": "0x0000000000000000000000000000000000000002",
+        "owner": "0x0000000000000000000000000000000000000002",
+        "created_at_block": 21,
+        "created_at_timestamp": 86400021,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-vote",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000018",
+          "voter": "0x0000000000000000000000000000000000000002",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000018:0x0000000000000000000000000000000000000002"
+        },
+        "payload": {
+          "schema": "review-vote/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000018",
+          "voter": "0x0000000000000000000000000000000000000002",
+          "value": "helpful",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000018:0x0000000000000000000000000000000000000002"
+        }
+      },
+      {
+        "key": "0x000000000000000000000000000000000000000000000000000000000000002a",
+        "creator": "0x0000000000000000000000000000000000000003",
+        "owner": "0x0000000000000000000000000000000000000003",
+        "created_at_block": 22,
+        "created_at_timestamp": 86400022,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-vote",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "voter": "0x0000000000000000000000000000000000000003",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000019:0x0000000000000000000000000000000000000003"
+        },
+        "payload": {
+          "schema": "review-vote/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "voter": "0x0000000000000000000000000000000000000003",
+          "value": "helpful",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000019:0x0000000000000000000000000000000000000003"
+        }
+      },
+      {
+        "key": "0x000000000000000000000000000000000000000000000000000000000000002b",
+        "creator": "0x0000000000000000000000000000000000000003",
+        "owner": "0x0000000000000000000000000000000000000003",
+        "created_at_block": 23,
+        "created_at_timestamp": 86400023,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-vote",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000015",
+          "voter": "0x0000000000000000000000000000000000000003",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000015:0x0000000000000000000000000000000000000003"
+        },
+        "payload": {
+          "schema": "review-vote/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000015",
+          "voter": "0x0000000000000000000000000000000000000003",
+          "value": "helpful",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000015:0x0000000000000000000000000000000000000003"
+        }
+      },
+      {
+        "key": "0x000000000000000000000000000000000000000000000000000000000000002c",
+        "creator": "0x0000000000000000000000000000000000000004",
+        "owner": "0x0000000000000000000000000000000000000004",
+        "created_at_block": 24,
+        "created_at_timestamp": 86400024,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-vote",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "voter": "0x0000000000000000000000000000000000000003",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000019:0x0000000000000000000000000000000000000003"
+        },
+        "payload": {
+          "schema": "review-vote/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "voter": "0x0000000000000000000000000000000000000003",
+          "value": "helpful",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000019:0x0000000000000000000000000000000000000003"
+        }
+      },
+      {
+        "key": "0x000000000000000000000000000000000000000000000000000000000000002d",
+        "creator": "0x0000000000000000000000000000000000000002",
+        "owner": "0x0000000000000000000000000000000000000002",
+        "created_at_block": 25,
+        "created_at_timestamp": 86400025,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-vote",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000063",
+          "voter": "0x0000000000000000000000000000000000000002",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000063:0x0000000000000000000000000000000000000002"
+        },
+        "payload": {
+          "schema": "review-vote/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000063",
+          "voter": "0x0000000000000000000000000000000000000002",
+          "value": "helpful",
+          "logical_id": "vote:0x0000000000000000000000000000000000000000000000000000000000000063:0x0000000000000000000000000000000000000002"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000032",
+        "creator": "0x0000000000000000000000000000000000000003",
+        "owner": "0x0000000000000000000000000000000000000003",
+        "created_at_block": 30,
+        "created_at_timestamp": 86400030,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-comment",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "author": "0x0000000000000000000000000000000000000003",
+          "logical_id": "comment:aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee"
+        },
+        "payload": {
+          "schema": "review-comment/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "author": "0x0000000000000000000000000000000000000003",
+          "text": "A margin note.",
+          "logical_id": "comment:aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000033",
+        "creator": "0x0000000000000000000000000000000000000003",
+        "owner": "0x0000000000000000000000000000000000000003",
+        "created_at_block": 31,
+        "created_at_timestamp": 86400031,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-comment",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "author": "0x0000000000000000000000000000000000000003",
+          "logical_id": "comment:aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee"
+        },
+        "payload": {
+          "schema": "review-comment/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "author": "0x0000000000000000000000000000000000000003",
+          "text": "A margin note.",
+          "logical_id": "comment:aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee"
+        }
+      },
+      {
+        "key": "0x0000000000000000000000000000000000000000000000000000000000000034",
+        "creator": "0x0000000000000000000000000000000000000003",
+        "owner": "0x0000000000000000000000000000000000000003",
+        "created_at_block": 32,
+        "created_at_timestamp": 86400032,
+        "expires_at_block": 5000,
+        "flags": {
+          "readonly": true,
+          "permissionless_extension": true
+        },
+        "attributes": {
+          "app": "arkiv-review-demo",
+          "kind": "review-comment",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "author": "0x0000000000000000000000000000000000000003",
+          "logical_id": "comment:not-a-uuid"
+        },
+        "payload": {
+          "schema": "review-comment/v1",
+          "target_revision_key": "0x0000000000000000000000000000000000000000000000000000000000000019",
+          "author": "0x0000000000000000000000000000000000000003",
+          "text": "A margin note.",
+          "logical_id": "comment:not-a-uuid"
+        }
+      }
+    ]
+  },
+  "excluded_expired_entities": [
+    {
+      "key": "0x0000000000000000000000000000000000000000000000000000000000000063",
+      "creator": "0x0000000000000000000000000000000000000001",
+      "owner": "0x0000000000000000000000000000000000000001",
+      "created_at_block": 40,
+      "created_at_timestamp": 86400040,
+      "expires_at_block": 99,
+      "flags": {
+        "readonly": true,
+        "permissionless_extension": true
+      },
+      "attributes": {
+        "app": "arkiv-review-demo",
+        "kind": "review-root",
+        "author": "0x0000000000000000000000000000000000000001",
+        "game_id": "baldurs-gate-3",
+        "platform": "pc",
+        "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+      },
+      "payload": {
+        "schema": "review-root/v1",
+        "author": "0x0000000000000000000000000000000000000001",
+        "game_id": "baldurs-gate-3",
+        "platform": "pc",
+        "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+      }
+    }
+  ],
+  "expected": {
+    "profile_keys": [
+      "0x0000000000000000000000000000000000000000000000000000000000000007"
+    ],
+    "root_keys": [
+      "0x0000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "revision_keys": [
+      "0x0000000000000000000000000000000000000000000000000000000000000014",
+      "0x0000000000000000000000000000000000000000000000000000000000000017",
+      "0x0000000000000000000000000000000000000000000000000000000000000018",
+      "0x0000000000000000000000000000000000000000000000000000000000000019"
+    ],
+    "vote_keys": [
+      "0x0000000000000000000000000000000000000000000000000000000000000028",
+      "0x000000000000000000000000000000000000000000000000000000000000002a"
+    ],
+    "comment_keys": [
+      "0x0000000000000000000000000000000000000000000000000000000000000032"
+    ],
+    "invalid_entity_keys": [
+      "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "0x0000000000000000000000000000000000000000000000000000000000000004",
+      "0x0000000000000000000000000000000000000000000000000000000000000005",
+      "0x0000000000000000000000000000000000000000000000000000000000000006",
+      "0x000000000000000000000000000000000000000000000000000000000000001b",
+      "0x000000000000000000000000000000000000000000000000000000000000001c",
+      "0x000000000000000000000000000000000000000000000000000000000000002b",
+      "0x000000000000000000000000000000000000000000000000000000000000002c",
+      "0x000000000000000000000000000000000000000000000000000000000000002d",
+      "0x0000000000000000000000000000000000000000000000000000000000000034"
+    ],
+    "scores": {
+      "0x0000000000000000000000000000000000000002": 0.0,
+      "0x0000000000000000000000000000000000000001": 0.002,
+      "0x0000000000000000000000000000000000000003": 0.0
+    }
+  }
+}

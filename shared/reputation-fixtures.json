@@ -1,0 +1,136 @@
+{
+  "schema": "reputation-fixtures/v1",
+  "chain_id": 1337,
+  "evaluation_day": 1000,
+  "semantics": "Current-day votes contribute to the returned score immediately. All vote weights on one UTC day use the score replayed at that day's start, so same-day feedback cannot recursively boost another voter's weight.",
+  "games": ["baldurs-gate-3", "cyberpunk-2077"],
+  "entities": [
+    {
+      "key": "0x1111111111111111111111111111111111111111111111111111111111111111",
+      "creator": "0x0000000000000000000000000000000000000001",
+      "owner": "0x0000000000000000000000000000000000000001",
+      "created_at_block": 1,
+      "created_at_timestamp": 86399000,
+      "expires_at_block": 2000000,
+      "flags": {"readonly": true, "permissionless_extension": true},
+      "attributes": {
+        "app": "arkiv-review-demo",
+        "kind": "review-root",
+        "author": "0x0000000000000000000000000000000000000001",
+        "game_id": "baldurs-gate-3",
+        "platform": "pc",
+        "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+      },
+      "payload": {
+        "schema": "review-root/v1",
+        "author": "0x0000000000000000000000000000000000000001",
+        "game_id": "baldurs-gate-3",
+        "platform": "pc",
+        "logical_id": "review:1337:0x0000000000000000000000000000000000000001:baldurs-gate-3:pc"
+      }
+    },
+    {
+      "key": "0x2222222222222222222222222222222222222222222222222222222222222222",
+      "creator": "0x0000000000000000000000000000000000000001",
+      "owner": "0x0000000000000000000000000000000000000001",
+      "created_at_block": 2,
+      "created_at_timestamp": 86400001,
+      "expires_at_block": 2000000,
+      "flags": {"readonly": true, "permissionless_extension": true},
+      "attributes": {
+        "app": "arkiv-review-demo",
+        "kind": "review-revision",
+        "root_key": "0x1111111111111111111111111111111111111111111111111111111111111111",
+        "revision": 1,
+        "logical_id": "0x1111111111111111111111111111111111111111111111111111111111111111:revision:1"
+      },
+      "payload": {
+        "schema": "review-revision/v1",
+        "root_key": "0x1111111111111111111111111111111111111111111111111111111111111111",
+        "revision": 1,
+        "previous_revision_key": null,
+        "rating_half_stars": 9,
+        "text": "A fixture review.",
+        "author": "0x0000000000000000000000000000000000000001",
+        "logical_id": "0x1111111111111111111111111111111111111111111111111111111111111111:revision:1"
+      }
+    },
+    {
+      "key": "0x3333333333333333333333333333333333333333333333333333333333333333",
+      "creator": "0x0000000000000000000000000000000000000001",
+      "owner": "0x0000000000000000000000000000000000000001",
+      "created_at_block": 3,
+      "created_at_timestamp": 86410002,
+      "expires_at_block": 2000000,
+      "flags": {"readonly": true, "permissionless_extension": true},
+      "attributes": {
+        "app": "arkiv-review-demo",
+        "kind": "review-revision",
+        "root_key": "0x1111111111111111111111111111111111111111111111111111111111111111",
+        "revision": 2,
+        "logical_id": "0x1111111111111111111111111111111111111111111111111111111111111111:revision:2"
+      },
+      "payload": {
+        "schema": "review-revision/v1",
+        "root_key": "0x1111111111111111111111111111111111111111111111111111111111111111",
+        "revision": 2,
+        "previous_revision_key": "0x2222222222222222222222222222222222222222222222222222222222222222",
+        "rating_half_stars": 10,
+        "text": "A newer fixture review.",
+        "author": "0x0000000000000000000000000000000000000001",
+        "logical_id": "0x1111111111111111111111111111111111111111111111111111111111111111:revision:2"
+      }
+    },
+    {
+      "key": "0x4444444444444444444444444444444444444444444444444444444444444444",
+      "creator": "0x0000000000000000000000000000000000000002",
+      "owner": "0x0000000000000000000000000000000000000002",
+      "created_at_block": 10,
+      "created_at_timestamp": 86400010,
+      "expires_at_block": 2000000,
+      "flags": {"readonly": true, "permissionless_extension": true},
+      "attributes": {
+        "app": "arkiv-review-demo",
+        "kind": "review-vote",
+        "target_revision_key": "0x2222222222222222222222222222222222222222222222222222222222222222",
+        "voter": "0x0000000000000000000000000000000000000002",
+        "logical_id": "vote:0x2222222222222222222222222222222222222222222222222222222222222222:0x0000000000000000000000000000000000000002"
+      },
+      "payload": {
+        "schema": "review-vote/v1",
+        "target_revision_key": "0x2222222222222222222222222222222222222222222222222222222222222222",
+        "voter": "0x0000000000000000000000000000000000000002",
+        "value": "helpful",
+        "logical_id": "vote:0x2222222222222222222222222222222222222222222222222222222222222222:0x0000000000000000000000000000000000000002"
+      }
+    },
+    {
+      "key": "0x5555555555555555555555555555555555555555555555555555555555555555",
+      "creator": "0x0000000000000000000000000000000000000003",
+      "owner": "0x0000000000000000000000000000000000000003",
+      "created_at_block": 11,
+      "created_at_timestamp": 86400011,
+      "expires_at_block": 2000000,
+      "flags": {"readonly": true, "permissionless_extension": true},
+      "attributes": {
+        "app": "arkiv-review-demo",
+        "kind": "review-vote",
+        "target_revision_key": "0x3333333333333333333333333333333333333333333333333333333333333333",
+        "voter": "0x0000000000000000000000000000000000000003",
+        "logical_id": "vote:0x3333333333333333333333333333333333333333333333333333333333333333:0x0000000000000000000000000000000000000003"
+      },
+      "payload": {
+        "schema": "review-vote/v1",
+        "target_revision_key": "0x3333333333333333333333333333333333333333333333333333333333333333",
+        "voter": "0x0000000000000000000000000000000000000003",
+        "value": "helpful",
+        "logical_id": "vote:0x3333333333333333333333333333333333333333333333333333333333333333:0x0000000000000000000000000000000000000003"
+      }
+    }
+  ],
+  "expected_scores": {
+    "0x0000000000000000000000000000000000000001": 0.002,
+    "0x0000000000000000000000000000000000000002": 0,
+    "0x0000000000000000000000000000000000000003": 0
+  }
+}

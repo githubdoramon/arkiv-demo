@@ -1,0 +1,96 @@
+/* Fixed decorative layers sit below the application and never intercept input. */
+body { position: relative; isolation: isolate; min-height: 100dvh; }
+.page-atmosphere {
+  position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none;
+  background:
+    radial-gradient(ellipse at 95% 0%, #23505b52, transparent 52%),
+    radial-gradient(ellipse at 0% 65%, #89542126, transparent 55%),
+    linear-gradient(145deg, #111923, #101218 56%, #15151d);
+}
+.ambient-light {
+  position: absolute; inset: -25%;
+  background:
+    radial-gradient(ellipse at 72% 20%, #36758038, transparent 36%),
+    radial-gradient(ellipse at 20% 75%, #d3954830, transparent 37%);
+}
+.ambient-grid {
+  position: absolute; inset: 0;
+  background-image: linear-gradient(#bacbd90a 1px, transparent 1px), linear-gradient(90deg, #bacbd90a 1px, transparent 1px);
+  background-size: 88px 88px;
+  mask-image: linear-gradient(#0008, transparent 75%);
+}
+.ambient-streak {
+  position: absolute; top: 8%; right: -10%; width: min(85vw, 1150px); height: 1px;
+  background: linear-gradient(90deg, transparent, #c8a66c66 48%, #9dc6c95c 65%, transparent);
+  box-shadow: 0 0 22px 1px #8bbec31f;
+  transform: rotate(-28deg); opacity: .65;
+}
+/* Gold anodized surface, lit upper edge, and an inset lower bevel. */
+:root button:is(.primary-btn,.connect-btn,.quest-button) {
+  position: relative; isolation: isolate; overflow: hidden;
+  border: 1px solid #f3ce92; border-radius: 10px 4px 10px 4px;
+  color: #20180e; font-weight: 750;
+  background: linear-gradient(125deg, #f5d292, #e8b464 52%, #d89a45);
+  box-shadow: inset 0 1px 0 #fff4dca6, inset 0 -2px 0 #a4692a70, 0 3px 0 #865422, 0 6px 16px #05070c45;
+}
+:root button:is(.primary-btn,.connect-btn,.quest-button):after {
+  content: ""; position: absolute; inset: -50% -35%; z-index: -1; pointer-events: none;
+  background: linear-gradient(110deg, transparent 36%, #fff8 49%, transparent 62%);
+  transform: translateX(-110%);
+}
+:root button:is(.primary-btn,.connect-btn,.quest-button):before {
+  content: ""; position: absolute; left: var(--press-x,50%); top: var(--press-y,50%);
+  width: 260px; height: 260px; border-radius: 50%; z-index: -1; pointer-events: none;
+  background: radial-gradient(circle, #fff9, #fff2 42%, transparent 70%);
+  opacity: 0; transform: translate(-50%,-50%) scale(0);
+}
+:root button:is(.primary-btn,.connect-btn,.quest-button):focus-visible {
+  outline: 2px solid #ffe0a5; outline-offset: 4px;
+}
+:root button:is(.primary-btn,.connect-btn,.quest-button):not(:disabled):active {
+  transform: translateY(2px) scale(.98);
+  box-shadow: inset 0 2px 5px #8a582c66, 0 1px 0 #865422, 0 2px 8px #05070c30;
+}
+:root button:is(.primary-btn,.connect-btn,.quest-button):disabled { box-shadow: inset 0 1px 0 #fff3; }
+:root[data-theme=light] .page-atmosphere {
+  background: radial-gradient(ellipse at 95% 0%, #b6d7db80, transparent 55%), linear-gradient(140deg, #e9ecf1, #f0ede7);
+}
+:root[data-theme=light] .ambient-light { opacity: .5; }
+:root[data-theme=light] .ambient-grid { opacity: .4; }
+@media (hover: hover) and (pointer: fine) {
+  :root button:is(.primary-btn,.connect-btn,.quest-button):not(:disabled):hover {
+    border-color: #ffe4b3;
+    box-shadow: inset 0 1px 0 #fff9, inset 0 -2px 0 #a4692a70, 0 4px 0 #865422, 0 8px 26px #dba55329;
+  }
+  :root button:is(.primary-btn,.connect-btn,.quest-button):not(:disabled):active {
+    box-shadow: inset 0 2px 5px #8a582c66, 0 1px 0 #865422, 0 2px 8px #05070c30;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes ambient-drift {
+    0%, 100% { transform: translate3d(-3%, -2%, 0) rotate(-4deg); }
+    50% { transform: translate3d(4%, 5%, 0) rotate(5deg); }
+  }
+  @keyframes streak-drift {
+    0%, 100% { transform: translate3d(3%, -25px, 0) rotate(-28deg); opacity: .3; }
+    50% { transform: translate3d(-7%, 95px, 0) rotate(-24deg); opacity: .85; }
+  }
+  @keyframes button-burst {
+    0% { opacity: .8; transform: translate(-50%,-50%) scale(0); }
+    100% { opacity: 0; transform: translate(-50%,-50%) scale(1.5); }
+  }
+  .ambient-light { animation: ambient-drift 26s ease-in-out infinite; }
+  .ambient-streak { animation: streak-drift 20s ease-in-out infinite; }
+  :root button:is(.primary-btn,.connect-btn,.quest-button) { transition: transform .2s cubic-bezier(.2,.75,.25,1); }
+  :root button:is(.primary-btn,.connect-btn,.quest-button):after { transition: transform .65s cubic-bezier(.2,.75,.25,1); }
+  :root button:is(.primary-btn,.connect-btn,.quest-button).button-burst:before { animation: button-burst .65s ease-out both; }
+  @media (hover: hover) and (pointer: fine) {
+    :root button:is(.primary-btn,.connect-btn,.quest-button):not(:disabled):hover { transform: translateY(-2px); }
+    :root button:is(.primary-btn,.connect-btn,.quest-button):not(:disabled):hover:after { transform: translateX(110%); }
+    :root button:is(.primary-btn,.connect-btn,.quest-button):not(:disabled):active { transform: translateY(2px) scale(.98); }
+  }
+}
+@media(max-width:620px) {
+  .ambient-grid { background-size: 64px 64px; opacity: .7; }
+  .ambient-streak { top: 15%; width: 110vw; }
+}

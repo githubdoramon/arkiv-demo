@@ -1,0 +1,34 @@
+{
+  "name": "sidequest-frontends",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "review-app",
+    "portfolio",
+    "shared"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @sidequest/review-app && npm run build --workspace @sidequest/portfolio",
+    "dev": "npm run dev --workspace @sidequest/review-app",
+    "dev:review": "npm run dev --workspace @sidequest/review-app",
+    "dev:portfolio": "npm run dev --workspace @sidequest/portfolio",
+    "typecheck": "npm run typecheck --workspace @sidequest/review-app && npm run typecheck --workspace @sidequest/portfolio",
+    "test": "npm run typecheck && npm run test:domain",
+    "test:domain": "node scripts/test-domain.mjs",
+    "build:tiramisu": "npm run build --workspace @sidequest/review-app -- --mode tiramisu && npm run build --workspace @sidequest/portfolio -- --mode tiramisu"
+  },
+  "dependencies": {
+    "@arkiv-network/sdk": "file:../../arkiv-sdk-js",
+    "viem": "^2.38.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7",
+    "@vitejs/plugin-react": "^5.0.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

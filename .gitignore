@@ -1,0 +1,39 @@
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# JavaScript dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+
+# Publisher-owned game art is loaded from the credited source URLs in games.json.
+shared/public/games/*.jpg
+
+# Local chain data, wallet material, and deployment secrets
+.runtime/
+runtime/
+wallets.json
+*.key
+deploy/secrets/*
+!deploy/secrets/.gitkeep
+*.sqlite3
+*.sqlite3-*
+
+# Local browser sessions, logs, and generated screenshots/reports
+.playwright-cli/
+output/
+poc/local-devnode.log
+
+# Local environment files; retain safe example and public testnet config
+.env*
+!.env.example
+!frontends/.env.example
+!frontends/.env.tiramisu
+!deploy/.env.example
+
+# OS metadata
+.DS_Store

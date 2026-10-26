@@ -1,0 +1,4 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { resolve } from 'node:path';
+export default defineConfig({envDir:resolve(__dirname,'..'),plugins:[react()],publicDir:resolve(__dirname,'../../shared/public'),resolve:{dedupe:['viem'],alias:[{find:/^@arkiv-network\/sdk$/,replacement:resolve(__dirname,'../../../arkiv-sdk-js/src/index.ts')},{find:'@arkiv-network/sdk/query',replacement:resolve(__dirname,'../../../arkiv-sdk-js/src/query/index.ts')},{find:'@arkiv-network/sdk/attr',replacement:resolve(__dirname,'../../../arkiv-sdk-js/src/attr/index.ts')},{find:'@arkiv-network/sdk/chains',replacement:resolve(__dirname,'../../../arkiv-sdk-js/src/chains/index.ts')}]},server:{host:'127.0.0.1',port:5173,strictPort:true,fs:{allow:[resolve(__dirname,'../..'),resolve(__dirname,'../../../arkiv-sdk-js')]}},build:{outDir:'dist',emptyOutDir:true}});

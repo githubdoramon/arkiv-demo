@@ -1,0 +1,1 @@
+export { calculateReputation } from './domain';
