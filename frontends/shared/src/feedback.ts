@@ -1,4 +1,5 @@
 import { appLink, portfolioUrl, isLocalNetwork } from './config';
+import { playerError } from './playerCopy';
 export type Feedback = {
   phase: 'notice' | 'wallet' | 'submitted' | 'confirmed' | 'error';
   message: string;
@@ -23,8 +24,7 @@ export async function runTransaction<T extends {txHash?: string}>(message: strin
     emitFeedback({phase:'confirmed',message,hash:result.txHash});
     return result;
   } catch (error) {
-    const value = error as {shortMessage?:string;message?:string;code?:number};
-    emitFeedback({phase:'error',message:value.code===4001?'Cancelled in your wallet.':value.shortMessage || value.message || 'The transaction could not be completed.'});
+    emitFeedback({phase:'error',message:playerError(error)});
     throw error;
   } finally { activeAction = ''; }
 }

@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T10:52:12.066500Z",
+  "title": "Design System: Afterword",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Reading paper",
+        "canonical": "#fafaf8",
+        "tonalRamp": [
+          "oklch(15.0% 0.0010 106.45)",
+          "oklch(26.4% 0.0017 106.45)",
+          "oklch(37.8% 0.0025 106.45)",
+          "oklch(49.2% 0.0026 106.45)",
+          "oklch(60.6% 0.0026 106.45)",
+          "oklch(72.0% 0.0026 106.45)",
+          "oklch(83.4% 0.0022 106.45)",
+          "oklch(95.0% 0.0007 106.45)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 0.00)",
+          "oklch(26.4% 0.0000 0.00)",
+          "oklch(37.8% 0.0000 0.00)",
+          "oklch(49.2% 0.0000 0.00)",
+          "oklch(60.6% 0.0000 0.00)",
+          "oklch(72.0% 0.0000 0.00)",
+          "oklch(83.4% 0.0000 0.00)",
+          "oklch(95.0% 0.0000 0.00)"
+        ]
+      },
+      "surface-alt": {
+        "role": "neutral",
+        "displayName": "Soft paper",
+        "canonical": "#efefeb",
+        "tonalRamp": [
+          "oklch(15.0% 0.0020 106.50)",
+          "oklch(26.4% 0.0035 106.50)",
+          "oklch(37.8% 0.0050 106.50)",
+          "oklch(49.2% 0.0053 106.50)",
+          "oklch(60.6% 0.0053 106.50)",
+          "oklch(72.0% 0.0053 106.50)",
+          "oklch(83.4% 0.0044 106.50)",
+          "oklch(95.0% 0.0013 106.50)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep ink",
+        "canonical": "#111b28",
+        "tonalRamp": [
+          "oklch(15.0% 0.0111 255.30)",
+          "oklch(26.4% 0.0195 255.30)",
+          "oklch(37.8% 0.0279 255.30)",
+          "oklch(49.2% 0.0296 255.30)",
+          "oklch(60.6% 0.0296 255.30)",
+          "oklch(72.0% 0.0296 255.30)",
+          "oklch(83.4% 0.0245 255.30)",
+          "oklch(95.0% 0.0074 255.30)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#576172",
+        "tonalRamp": [
+          "oklch(15.0% 0.0113 261.06)",
+          "oklch(26.4% 0.0198 261.06)",
+          "oklch(37.8% 0.0284 261.06)",
+          "oklch(49.2% 0.0300 261.06)",
+          "oklch(60.6% 0.0300 261.06)",
+          "oklch(72.0% 0.0300 261.06)",
+          "oklch(83.4% 0.0249 261.06)",
+          "oklch(95.0% 0.0075 261.06)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Pale rule",
+        "canonical": "#d0d3d5",
+        "tonalRamp": [
+          "oklch(15.0% 0.0016 236.51)",
+          "oklch(26.4% 0.0028 236.51)",
+          "oklch(37.8% 0.0041 236.51)",
+          "oklch(49.2% 0.0043 236.51)",
+          "oklch(60.6% 0.0043 236.51)",
+          "oklch(72.0% 0.0043 236.51)",
+          "oklch(83.4% 0.0036 236.51)",
+          "oklch(95.0% 0.0011 236.51)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Editorial vermilion",
+        "canonical": "#b33326",
+        "tonalRamp": [
+          "oklch(15.0% 0.0625 29.69)",
+          "oklch(26.4% 0.1100 29.69)",
+          "oklch(37.8% 0.1576 29.69)",
+          "oklch(49.2% 0.1667 29.69)",
+          "oklch(60.6% 0.1667 29.69)",
+          "oklch(72.0% 0.1667 29.69)",
+          "oklch(83.4% 0.1384 29.69)",
+          "oklch(95.0% 0.0417 29.69)"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Blush paper",
+        "canonical": "#f5e7e1",
+        "tonalRamp": [
+          "oklch(15.0% 0.0065 44.80)",
+          "oklch(26.4% 0.0114 44.80)",
+          "oklch(37.8% 0.0164 44.80)",
+          "oklch(49.2% 0.0173 44.80)",
+          "oklch(60.6% 0.0173 44.80)",
+          "oklch(72.0% 0.0173 44.80)",
+          "oklch(83.4% 0.0144 44.80)",
+          "oklch(95.0% 0.0043 44.80)"
+        ]
+      },
+      "control-line": {
+        "role": "neutral",
+        "displayName": "Control rule",
+        "canonical": "#a4acb4",
+        "tonalRamp": [
+          "oklch(15.0% 0.0055 248.03)",
+          "oklch(26.4% 0.0097 248.03)",
+          "oklch(37.8% 0.0138 248.03)",
+          "oklch(49.2% 0.0147 248.03)",
+          "oklch(60.6% 0.0147 248.03)",
+          "oklch(72.0% 0.0147 248.03)",
+          "oklch(83.4% 0.0122 248.03)",
+          "oklch(95.0% 0.0037 248.03)"
+        ]
+      },
+      "structural-line": {
+        "role": "neutral",
+        "displayName": "Structural rule",
+        "canonical": "#969fa8",
+        "tonalRamp": [
+          "oklch(15.0% 0.0063 248.07)",
+          "oklch(26.4% 0.0110 248.07)",
+          "oklch(37.8% 0.0158 248.07)",
+          "oklch(49.2% 0.0167 248.07)",
+          "oklch(60.6% 0.0167 248.07)",
+          "oklch(72.0% 0.0167 248.07)",
+          "oklch(83.4% 0.0139 248.07)",
+          "oklch(95.0% 0.0042 248.07)"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Error vermilion",
+        "canonical": "#982d21",
+        "tonalRamp": [
+          "oklch(15.0% 0.0542 29.94)",
+          "oklch(26.4% 0.0954 29.94)",
+          "oklch(37.8% 0.1366 29.94)",
+          "oklch(49.2% 0.1446 29.94)",
+          "oklch(60.6% 0.1446 29.94)",
+          "oklch(72.0% 0.1446 29.94)",
+          "oklch(83.4% 0.1200 29.94)",
+          "oklch(95.0% 0.0361 29.94)"
+        ]
+      },
+      "danger-bg": {
+        "role": "neutral",
+        "displayName": "Error paper",
+        "canonical": "#f8e7e2",
+        "tonalRamp": [
+          "oklch(15.0% 0.0074 37.03)",
+          "oklch(26.4% 0.0131 37.03)",
+          "oklch(37.8% 0.0187 37.03)",
+          "oklch(49.2% 0.0198 37.03)",
+          "oklch(60.6% 0.0198 37.03)",
+          "oklch(72.0% 0.0198 37.03)",
+          "oklch(83.4% 0.0165 37.03)",
+          "oklch(95.0% 0.0050 37.03)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Reviewer identity and directory opening."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Review game titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Directory reviewer names."
+      },
+      "body": {
+        "displayName": "Reading body",
+        "purpose": "Review prose, preserving original line breaks."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Controls, form labels and supporting interface content."
+      }
+    },
+    "shadows": [
+      {
+        "name": "floating-feedback",
+        "value": "0 16px 48px #17213020",
+        "purpose": "Exceptional white notification surface; editorial reviews remain flat."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.23,1,.32,1)",
+        "purpose": "Short link and directory feedback."
+      },
+      {
+        "name": "color-transition",
+        "value": "150ms",
+        "purpose": "Control and navigation color feedback."
+      },
+      {
+        "name": "reading-underline",
+        "value": "180ms",
+        "purpose": "Partial link underline extends on hover or focus."
+      },
+      {
+        "name": "directory-hover",
+        "value": "180ms",
+        "purpose": "Fine-pointer cover and arrow response."
+      },
+      {
+        "name": "refresh-rotation",
+        "value": "1.2s linear infinite",
+        "purpose": "Active refresh only; disabled for reduced motion."
+      },
+      {
+        "name": "editorial-light-drift",
+        "value": "34s / 40s ease-in-out alternate",
+        "purpose": "Warm-paper and cool-ink fields; reading stays still, reduced motion stays static."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1650px"
+      },
+      {
+        "name": "index-hidden-max",
+        "value": "1200px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "800px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "560px"
+      },
+      {
+        "name": "shared-toast-max",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Quiet refresh",
+      "kind": "button",
+      "description": "A visible utility label and SVG with no enclosing panel.",
+      "html": "<button class=\"ds-af-refresh\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 7v5h-5M4 17v-5h5M5.4 7a7.5 7.5 0 0 1 12.3-2L20 8M4 16l2.3 3A7.5 7.5 0 0 0 18.6 17\"/></svg><span>Refresh</span></button>",
+      "css": ".ds-af-refresh{display:inline-flex;align-items:center;gap:10px;padding:10px 0 10px 10px;min-height:40px;border:0;border-radius:4px;background:none;color:var(--muted,#576172);font:13px 'DM Sans',sans-serif;cursor:pointer;transition:color 150ms ease}.ds-af-refresh svg{width:20px}.ds-af-refresh:focus-visible{outline:2px solid var(--accent,#b33326);outline-offset:3px;}.ds-af-refresh:disabled{opacity:.5;cursor:default}@media(prefers-reduced-motion:no-preference){@keyframes ds-af-refresh-turn{to{transform:rotate(360deg)}}.ds-af-refresh[aria-busy=\"true\"] svg{animation:ds-af-refresh-turn 1.2s linear infinite}}@media(prefers-reduced-motion:reduce){.ds-af-refresh{transition:none}}",
+      "refersTo": "button-quiet"
+    },
+    {
+      "name": "Reviewer search",
+      "kind": "input",
+      "description": "Filters reviewer names while typing, without a redundant Search button. Enter opens a unique match.",
+      "html": "<label class=\"ds-af-search\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m16 16 4 4M18 10.5a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0\"/></svg><input type=\"search\" aria-label=\"Find a reviewer by name or account address\" placeholder=\"Find a reviewer\"/></label>",
+      "css": ".ds-af-search{display:block;position:relative;max-width:600px}.ds-af-search svg{position:absolute;left:13px;top:15px;width:17px;color:var(--ink,#111b28);pointer-events:none}.ds-af-search input{width:100%;height:48px;padding:11px 12px 11px 40px;font:13px 'DM Sans',sans-serif;border:1px solid #a4acb4;border-radius:4px;background:transparent;color:var(--ink,#111b28);caret-color:var(--accent,#b33326)}.ds-af-search input::placeholder{color:var(--muted,#576172)}.ds-af-search input:focus-visible{outline:2px solid var(--accent,#b33326);outline-offset:3px;}",
+      "refersTo": "input-search"
+    },
+    {
+      "name": "Editorial navigation",
+      "kind": "nav",
+      "description": "Quiet sans-serif links leave the serif masthead in charge.",
+      "html": "<nav class=\"ds-af-nav\" aria-label=\"Main navigation\"><a href=\"https://portfolios.appcalipse.com\" aria-current=\"page\">Reviewers</a><a href=\"https://sidequest.appcalipse.com\">Explore games <svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></nav>",
+      "css": ".ds-af-nav{display:flex;align-items:center;gap:40px;font:14px 'DM Sans',sans-serif;color:var(--ink,#111b28)}.ds-af-nav a{display:flex;align-items:center;gap:7px;color:inherit;text-decoration:none;transition:color 150ms ease}.ds-af-nav a[aria-current]{color:var(--accent,#b33326)}.ds-af-nav svg{width:16px}.ds-af-nav a:hover{text-decoration:underline;text-underline-offset:5px}.ds-af-nav a:focus-visible{outline:2px solid var(--accent,#b33326);outline-offset:3px;}@media(max-width:800px){.ds-af-nav{gap:20px;font-size:12px}}@media(prefers-reduced-motion:reduce){.ds-af-nav a{transition:none}}"
+    },
+    {
+      "name": "Author profile link",
+      "kind": "button",
+      "description": "Outlined desktop profile action, reversed on hover.",
+      "html": "<a class=\"ds-af-profile-link\" href=\"https://sidequest.appcalipse.com\">Edit profile <svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-af-profile-link{display:flex;justify-content:space-between;align-items:center;gap:12px;max-width:235px;padding:10px 12px;border:1px solid #a4acb4;border-radius:4px;color:var(--ink,#111b28);background:transparent;font:12px 'DM Sans',sans-serif;text-decoration:none;transition:color 150ms ease,background-color 150ms ease}.ds-af-profile-link svg{width:16px}.ds-af-profile-link:hover{background:var(--ink,#111b28);color:var(--bg,#fafaf8)}.ds-af-profile-link:focus-visible{outline:2px solid var(--accent,#b33326);outline-offset:3px;}@media(max-width:560px){.ds-af-profile-link{border:0;padding:3px 0;font-size:11px;gap:8px}.ds-af-profile-link:hover{background:none;color:var(--accent,#b33326)}}@media(prefers-reduced-motion:reduce){.ds-af-profile-link{transition:none}}",
+      "refersTo": "profile-link"
+    },
+    {
+      "name": "Reviewer initials",
+      "kind": "custom",
+      "description": "Circular initials identify a real reviewer without inventing a portrait.",
+      "html": "<span class=\"ds-af-monogram\" aria-label=\"Alex Morgan\">AM</span>",
+      "css": ".ds-af-monogram{display:grid;place-items:center;width:75px;height:75px;background:var(--accent-soft,#f5e7e1);color:var(--accent,#b33326);border-radius:50%;font:400 31px \"DM Serif Display\",Georgia,serif}@media(max-width:800px){.ds-af-monogram{width:58px;height:58px;font-size:25px}}@media(max-width:560px){.ds-af-monogram{width:48px;height:48px;font-size:21px}}",
+      "refersTo": "reviewer-monogram"
+    },
+    {
+      "name": "Open review writing",
+      "kind": "card",
+      "description": "A ruled editorial excerpt with stable serif prose and quiet reading links.",
+      "html": "<article class=\"ds-af-review\"><h2>Hades</h2><p>Updated after more runs: Hades remains a sharp, generous roguelike.</p><a href=\"https://sidequest.appcalipse.com\">Read on Sidequest <svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-af-source\" href=\"https://sidequest.appcalipse.com\">View source <svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></article>",
+      "css": ".ds-af-review{padding:28px 0;border-bottom:1px solid var(--line,#d0d3d5);color:var(--ink,#111b28)}.ds-af-review h2{font:400 clamp(26px,2.7vw,40px)/1.13 \"DM Serif Display\",Georgia,serif;letter-spacing:-.025em;margin:0 0 13px}.ds-af-review p{font:19px/1.6 Georgia,\"Times New Roman\",serif;white-space:pre-wrap;overflow-wrap:anywhere;max-width:65ch;margin:20px 0}.ds-af-review a{display:inline-flex;gap:7px;align-items:center;position:relative;min-height:36px;padding:7px 0;margin-right:22px;font:11px 'DM Sans',sans-serif;text-decoration:none;color:var(--accent,#b33326)}.ds-af-review a.ds-af-source{color:var(--muted,#576172)}.ds-af-review a svg{width:15px}.ds-af-review a:after{content:\"\";height:1px;background:var(--accent,#b33326);position:absolute;bottom:3px;left:0;right:0;transform:scaleX(.16);transform-origin:left;transition:transform 180ms cubic-bezier(.23,1,.32,1)}.ds-af-review a:hover:after,.ds-af-review a:focus-visible:after{transform:scaleX(1)}.ds-af-review a:focus-visible{outline:2px solid var(--accent,#b33326);outline-offset:3px;}@media(max-width:560px){.ds-af-review p{font-size:19px;line-height:1.65}}@media(prefers-reduced-motion:reduce){.ds-af-review a:after{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Critic's Column",
+    "overview": "Afterword gives the reviewer a light editorial home. Deep ink, an expressive serif and vermilion details establish an identity independent from Sidequest. Thin rules and open columns create structure without enclosing every piece of writing in a card. This is the implemented world selected through Afterword A.\n\nThe author's perspective leads; real game covers act as reading anchors. Serif review prose carries the voice, while a quiet sans-serif handles dates, platforms, feedback and links. Public account details remain available without competing with the name, bio and writing.",
+    "keyCharacteristics": [
+      "Near-white paper, deep ink and restrained vermilion.",
+      "Expressive serif headings, readable serif prose and sans-serif metadata.",
+      "Open editorial columns separated by thin rules.",
+      "Real portrait cover inserts and circular initials."
+    ],
+    "rules": [
+      {
+        "name": "The Quiet Accent Rule",
+        "body": "Use vermilion for identity, ratings and useful link emphasis; let ink and paper carry the reading surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Author's Voice Rule",
+        "body": "Let expressive serif headings and stable serif prose lead; keep interaction labels and record metadata in the quieter sans-serif voice.",
+        "section": "typography"
+      },
+      {
+        "name": "The Open Page Rule",
+        "body": "Keep reviews and directory entries open on the canvas; use rules and spacing for separation before introducing enclosing panels.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve real reviewer names, bios, prose, platform labels and reputation values.",
+      "**Do** use self-hosted DM Serif Display for identity and Georgia for the implemented reading body.",
+      "**Do** keep cover images proportional, square-cornered and sourced from the real catalog.",
+      "**Do** preserve generous mobile reading text, keyboard focus and reduced-motion behavior.",
+      "**Do** keep source links and optional account details available in a secondary role."
+    ],
+    "donts": [
+      "**Don't** import Sidequest's dark surfaces, citron actions or condensed display type.",
+      "**Don't** turn open review rows into a stack of elevated cards.",
+      "**Don't** animate the reading column or make the prose move during ordinary reading.",
+      "**Don't** copy invented comp prose, counts or a generated portrait into the product.",
+      "**Don't** make technical account terminology the main promise of the reviewer page."
+    ]
+  }
+}

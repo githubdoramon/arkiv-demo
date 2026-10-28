@@ -9,7 +9,7 @@ COPY shared /workspace/sidequest/shared
 WORKDIR /workspace/sidequest/frontends
 RUN npm ci
 ARG REVIEW_APP_URL=https://sidequest.appcalipse.com/
-ARG PORTFOLIO_URL=https://portfolios.appcalipse.com/
+ARG PORTFOLIO_URL=https://afterword.appcalipse.com/
 RUN VITE_REVIEW_APP_URL="$REVIEW_APP_URL" VITE_PORTFOLIO_URL="$PORTFOLIO_URL" npm run build:tiramisu
 
 FROM nginx:stable-alpine AS portfolio

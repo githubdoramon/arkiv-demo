@@ -17,5 +17,8 @@ output
 !deploy/.env.example
 **/*.sqlite3*
 **/secrets
-shared/public/games
 poc/local-devnode.log
+
+# Design metadata is development-only; public game artwork ships with both apps.
+**/.impeccable
+**/DESIGN.md

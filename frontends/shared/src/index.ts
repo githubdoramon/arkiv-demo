@@ -9,3 +9,5 @@ export * from './DataExplorer';
 export * from './useLibraryMotion';
 export * from './Atmosphere';
 export * from './config';
+export * from './Icons';
+export * from './playerCopy';

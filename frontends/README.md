@@ -1,9 +1,9 @@
-# Sidequest frontends
+# Sidequest and Afterword frontends
 
 Two local React + Vite clients share a TypeScript snapshot and canonicalization/reputation domain:
 
-- Review app: `http://127.0.0.1:5173` (reads through the Python API; writes directly from the browser wallet through the sibling Arkiv JS SDK).
-- Independent portfolio: `http://127.0.0.1:5174` (reads Arkiv directly at one pinned block; does not call the Python API).
+- Sidequest review app: `http://127.0.0.1:5173` (reads through the Python API; writes directly from the browser wallet through the sibling Arkiv JS SDK).
+- Afterword independent portfolio: `http://127.0.0.1:5174` (reads Arkiv directly at one pinned block; does not call the Python API).
 
 From this directory:
 
@@ -27,4 +27,8 @@ Browser wallet connection switches to the local network and requests adding it w
 
 ## Tiramisu production builds
 
-`npm run build:tiramisu` uses `.env.tiramisu` from this workspace directory, selects chain 7738577, uses same-origin `/api` for the main app and compiles links to `https://sidequest.appcalipse.com/` and `https://portfolios.appcalipse.com/`. Local development wallet choices are omitted, and entity/transaction links use Arkiv's public explorers. Both Vite apps read their env files from this workspace directory. `npm run build` retains the default local configuration. Docker packaging is documented in `../deploy/README.md`.
+`npm run build:tiramisu` uses `.env.tiramisu` from this workspace directory, selects chain 7738577, uses same-origin `/api` for the main app and compiles links to `https://sidequest.appcalipse.com/` and `https://afterword.appcalipse.com/`. Local development wallet choices are omitted, and entity/transaction links use Arkiv's public explorers. Both Vite apps read their env files from this workspace directory. `npm run build` retains the default local configuration. Docker packaging is documented in `../deploy/README.md`.
+
+## Visual identities
+
+Sidequest uses the approved dark console-style cover collection; Afterword uses the approved light editorial reviewer layout. Each app has its own `DESIGN.md` and token sidecar. Player-facing account controls say **Sign in** and **My profile**. On local builds, Sign in offers Reviewer one / Reviewer two demo accounts. Wallet approval is explained only when it is needed. Existing exported Docker bundles need rebuilding to include this redesign. See `../deploy/README.md` for packaging and upgrade instructions. Design and motion rules live in each app’s `DESIGN.md`. Local browser verification artifacts are generated under `output/` and are not committed.

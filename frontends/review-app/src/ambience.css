@@ -1,0 +1,20 @@
+/* Game-room light follows the whole collection, beyond the featured art. */
+body{position:relative;isolation:isolate;min-height:100dvh}
+body::before,body::after{content:'';position:fixed;pointer-events:none;z-index:-1}
+body::before{inset:-12%;background:radial-gradient(ellipse at 82% 12%,#29596788,transparent 48%),radial-gradient(ellipse at 7% 72%,#81723055,transparent 46%),linear-gradient(145deg,#111c26,#101219 60%,#171c1b)}
+body::after{inset:-15%;background:radial-gradient(ellipse at 20% 15%,#6f86302c,transparent 40%),radial-gradient(ellipse at 80% 80%,#36477460,transparent 45%)}
+button.primary-btn,button.connect-btn{isolation:isolate;background:linear-gradient(120deg,#f0ff79,#e5fa36 58%,#d3eb28);box-shadow:inset 0 1px 0 #fff9,inset 0 -2px 0 #8fa51e55,0 5px 16px #060b0433;transition:transform 480ms var(--ease-out),box-shadow 600ms ease}
+button.primary-btn::before,button.connect-btn::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% -15%,#ffffffe6,transparent 68%);opacity:0;transform:translateY(-20%);transition:opacity 540ms ease,transform 750ms var(--ease-out);z-index:-1}
+button.primary-btn::after,button.connect-btn::after{background:linear-gradient(115deg,transparent 25%,#ffffffa0 50%,transparent 75%);transition:transform 750ms var(--ease-out)}
+button.primary-btn:not(:disabled):active,button.connect-btn:not(:disabled):active{transform:translateY(1px) scale(.98);box-shadow:inset 0 2px 7px #61720b55,0 1px 5px #060b0433}
+button.primary-btn:not(:disabled):active::before,button.connect-btn:not(:disabled):active::before{opacity:1;transform:translateY(0)}
+@media(hover:hover) and (pointer:fine){
+ button.primary-btn:not(:disabled):hover,button.connect-btn:not(:disabled):hover{box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 #9dbf2770,0 7px 22px #b4d53622}
+ button.primary-btn:not(:disabled):hover::before,button.connect-btn:not(:disabled):hover::before{opacity:.85;transform:translateY(0)}
+ .demo-accounts button:hover,.secondary-btn:hover,.review-actions button:not(:disabled):hover{background-color:#e5fa3615;box-shadow:inset 0 1px 0 #ffffff25}
+}
+@media(prefers-reduced-motion:no-preference){
+ @keyframes room-light-drift{from{transform:translate3d(-2%,-1%,0) rotate(-2deg)}to{transform:translate3d(2%,2%,0) rotate(2deg)}}
+ body::before{animation:room-light-drift 26s ease-in-out infinite alternate}
+ body::after{animation:room-light-drift 32s ease-in-out infinite alternate-reverse}
+}

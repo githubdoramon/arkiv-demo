@@ -10,8 +10,7 @@ node_modules/
 **/node_modules/
 dist/
 
-# Publisher-owned game art is loaded from the credited source URLs in games.json.
-shared/public/games/*.jpg
+# Real game covers and licensed fonts are versioned so clean builds are self-contained.
 
 # Local chain data, wallet material, and deployment secrets
 .runtime/
